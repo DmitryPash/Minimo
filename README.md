@@ -1,0 +1,2 @@
+# Minimo
+The Bootstrap Page
