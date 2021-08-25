@@ -1,0 +1,207 @@
+body {
+
+	min-width: 320px;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+a {
+	color: #b4ad9e;
+
+}
+
+a:hover {
+	color: #898377;
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5rem;
+	/*Отступы меджу строк в р*/
+}
+
+h2,
+h3 {
+	margin: 1rem 0;
+	font-size: 30px;
+}
+
+header .navbar-brand {
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+header .nav-item {
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+
+header .nav-item a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #ccc;
+	height: 1px;
+	transform: scale(0);
+	transition: 0.3s;
+}
+
+header .nav-item a:hover::after {
+	transform: scale(1);
+}
+
+.slider {
+	margin-bottom: 50px;
+}
+
+.row {
+	margin: 0px 40px 0 40px;
+}
+
+.post-category,
+.link-more {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #b4ad9e;
+	font-weight: 300;
+
+}
+
+#link-more-id {
+	margin-top: 60px;
+}
+
+.post-title a {
+	font-size: 30px;
+
+	color: #626262;
+
+}
+
+.card-body h5 {
+	font-size: 30px;
+}
+
+.grid-posts {
+	margin: 100px 0 100px 0;
+}
+
+.grid-posts .card {
+	border: 0;
+	margin-bottom: 100px;
+}
+
+.grid-posts .card-body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.grid-posts .card-img-top {
+	max-height: 350px;
+}
+
+/*grid-post_1*/
+.grid-posts_1 {
+	margin: 100px 0 100px 0;
+}
+
+.grid-posts_1 .card {
+	border: 0;
+
+}
+
+.grid-posts_1 .card-body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.grid-posts_1 .card-img-top {
+	max-height: 350px;
+}
+
+/*f*/
+
+
+.load-more {
+	padding: 1erm 2erm;
+	border-color: #626262;
+	border-radius: 0px;
+	margin-bottom: 80px;
+
+
+}
+
+.load-more span {
+	display: none;
+}
+
+.singup {
+	background-color: #f0f0f0;
+	padding: 70px 0;
+
+}
+
+.singup h3 {
+	color: #333;
+
+}
+
+.singup form {
+	margin-top: 50px;
+}
+
+.singup .form-input {
+	position: relative;
+}
+
+.singup .form-control {
+	border: 0;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+.singup .form-control:focus {
+	box-shadow: none;
+}
+
+.form-input .btn {
+	position: absolute;
+	right: 0;
+	top: -5px;
+	font-size: 25px;
+}
+
+footer {
+	background-color: #f0f0f0;
+	padding: 40px 0;
+	color: #000;
+}
+
+footer a {
+	color: black;
+	font-size: 16px;
+
+
+}
+
+.footer-right a {
+	margin-left: 20px;
+	color: #626262;
+}
+
+.footer-left a {
+	margin-right: 20px;
+}
